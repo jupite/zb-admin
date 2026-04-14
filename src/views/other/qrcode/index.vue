@@ -17,7 +17,7 @@
       <el-descriptions-item label="官方文档">
         <a href="https://github.com/Binaryify/vue-qr" target="_blank">https://github.com/Binaryify/vue-qr</a>
       </el-descriptions-item>
-      <el-descriptions-item label="text"> 二维码内容，默认为 'https://github.com/zouzhibin/vue-admin-perfect' </el-descriptions-item>
+      <el-descriptions-item label="text"> 二维码内容，默认为 '******' </el-descriptions-item>
       <el-descriptions-item label="logoSrc"> 嵌入至二维码中心的 LOGO 地址 </el-descriptions-item>
       <el-descriptions-item label="size"> 尺寸, 长宽一致, 包含外边距，默认为 200 </el-descriptions-item>
       <el-descriptions-item label="margin"> 二维码图像的外边距, 默认 20px </el-descriptions-item>
@@ -41,7 +41,7 @@
   const logoSrc = ref(null)
   const qrcodeUrl = ref(null)
   const randomColor = ref('black')
-  const inputData = ref('https://github.com/zouzhibin/vue-admin-perfect')
+  const inputData = ref('******')
 
   const handleQrcode = (type) => {
     switch (type) {

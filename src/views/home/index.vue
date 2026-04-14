@@ -17,14 +17,14 @@
             <div class="name"></div>
             <div class="description"></div>
             <div class="list">
-              <div>昵称：小狼</div>
-              <div>职业：前端</div>
-              <div>公司：小公司</div>
-              <div>年龄：~~</div>
-              <div>性别：男</div>
-              <div>现住址：中国-浙江-杭州</div>
-              <div>邮箱：1135957121@qq.com</div>
-              <div>微信：19550102670(欢迎加微信入群,群员已超200)</div>
+              <div>昵称：******</div>
+              <div>职业：******</div>
+              <div>公司：******</div>
+              <div>年龄：******</div>
+              <div>性别：******</div>
+              <div>现住址：******</div>
+              <div>邮箱：******</div>
+              <div>微信：******</div>
               <div>技术栈：JavaScript、HTML、CSS、Vue、Node、React</div>
               <div>~~~接外包~~~</div>
             </div>
@@ -102,18 +102,14 @@
             </div>
           </template>
           <div style="display: flex">
-            <el-card
-              style="flex: 1; margin-right: 20px; cursor: pointer"
-              class="card-item"
-              @click="goTo('https://ext.dcloud.net.cn/plugin?id=7511')"
-            >
+            <el-card style="flex: 1; margin-right: 20px; cursor: pointer" class="card-item" @click="goTo('******')">
               <div style="color: white; margin-bottom: 10px"><h3>zb-table</h3></div>
               <div style="font-size: 12px; color: white"
                 >uniapp 表格组件
                 支持固定表头和首列、上拉加载更多、及固定多列，表格自适应内容，排序，多选checkbox、可点击删除，编辑、合计功能，兼容多端</div
               >
             </el-card>
-            <el-card style="flex: 1; cursor: pointer" class="card-item" @click="goTo('https://github.com/zouzhibin/vue-admin-perfect')">
+            <el-card style="flex: 1; cursor: pointer" class="card-item" @click="goTo('******')">
               <div style="color: white; margin-bottom: 10px"><h3>vue-admin-perfect</h3></div>
               <div style="font-size: 12px; color: white">系统基于vue3+vuex+ element-plus+ts后台管理系统</div>
             </el-card>

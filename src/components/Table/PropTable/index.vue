@@ -33,7 +33,7 @@
       <!-- ------------分页--------------->
       <div class="pagination">
         <el-pagination
-          v-model:currentPage="pagination.currentPage"
+          v-model:current-page="pagination.currentPage"
           :page-size="10"
           background
           layout="total, sizes, prev, pager, next, jumper"

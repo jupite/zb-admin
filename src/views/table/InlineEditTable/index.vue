@@ -49,7 +49,7 @@
       </el-table>
       <div style="width: 100%; display: flex; justify-content: center; padding-top: 20px">
         <el-pagination
-          v-model:currentPage="currentPage1"
+          v-model:current-page="currentPage1"
           :page-size="10"
           background
           layout="total, sizes, prev, pager, next, jumper"

@@ -18,17 +18,17 @@ const externalLink = [
       //     meta: { title: '加微信群',  icon: 'MenuIcon' }
       // },
       {
-        path: 'https://github.com/zouzhibin/vue-admin-perfect',
+        path: '******',
         name: 'github',
         meta: { title: 'Github 地址', icon: 'MenuIcon' },
       },
       {
-        path: 'https://gitee.com/yuanzbz/vue-admin-perfect?_from=gitee_search',
+        path: '******',
         name: 'github',
         meta: { title: 'Gitee 地址', icon: 'MenuIcon' },
       },
       {
-        path: 'https://yuanzbz.gitee.io/vue-admin-simple',
+        path: '******',
         name: 'simple',
         meta: { title: '简易版本', icon: 'MenuIcon' },
         component: () => import('@/views/externalLinks/simple/index.vue'),

@@ -93,7 +93,7 @@
         drawer.value = true
         return
       case 2:
-        window.open('https://github.com/zouzhibin/vue-admin-perfect')
+        window.open('******')
         return
     }
   }

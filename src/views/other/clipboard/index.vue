@@ -18,7 +18,7 @@
 <script lang="ts" setup>
   import { ref } from 'vue'
   import clip from '@/utils/clipboard'
-  const copyValue = ref('https://github.com/zouzhibin/vue-admin-perfect')
+  const copyValue = ref('******')
   const testValue = ref('')
 
   const handleCopy = (text, event) => {

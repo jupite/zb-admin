@@ -35,7 +35,7 @@
       </div>
       <div class="pagination">
         <el-pagination
-          v-model:currentPage="currentPage1"
+          v-model:current-page="currentPage1"
           :page-size="10"
           background
           layout="total, sizes, prev, pager, next, jumper"
