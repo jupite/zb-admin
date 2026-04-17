@@ -1,5 +1,5 @@
 import ExcelJS from 'exceljs'
-const autoWidthAction = (val, width = 10) => {
+export const autoWidthAction = (val, width = 10) => {
   if (val == null) {
     width = 10
   } else if (val.toString().charCodeAt(0) > 255) {
