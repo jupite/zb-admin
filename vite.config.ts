@@ -2,6 +2,7 @@ import { defineConfig, ConfigEnv, UserConfig } from 'vite'
 import path from 'path'
 // vite.config.ts中无法使用import.meta.env 所以需要引入
 import vue from '@vitejs/plugin-vue'
+/// <reference types="vitest" />
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 // 增加 vue文件 script name值
 import vueSetupExtend from 'vite-plugin-vue-setup-extend'
@@ -92,5 +93,15 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
     //     },
     //   },
     // },
+    test: {
+      globals: true,
+      environment: 'happy-dom',
+      include: ['src/**/*.test.ts', 'src/**/*.spec.ts'],
+      reporters: ['default', 'html'],
+      coverage: {
+        provider: 'v8',
+        reporter: ['text', 'json', 'html'],
+      },
+    },
   }
 })
